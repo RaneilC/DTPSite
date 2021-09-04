@@ -1,0 +1,213 @@
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffec01;
+    }
+    .offset:before{
+        display: block;
+        content: "";
+        height: 60px;
+        margin-top: -60px;
+    }
+    html{
+        scroll-behavior: smooth;
+      }
+
+    /* NAVIGATION*/
+    .navbar{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 4px;
+        background: rgba(0, 0, 0, 0.6)!important;
+    
+    }
+    .navbar-brand img{
+        height: 50px;
+    }
+    .navbar-nav li{
+        padding-right: 10px;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        color: white;
+        padding-top: 8px;
+    }
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link:hover{
+        color: #ffec01;
+    }
+ 
+    /* END OF NAVIGATION */
+
+    /*HOME PAGE*/
+    .home-inner{
+        background-image: url(img/colleagues.jpg);
+    }
+    .header-area {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffff;
+        font-size: 30px;
+        text-shadow:0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .header-area h1{
+        font-size: 60px;
+    }
+    .header-area p span{
+        color: #ffec01;
+    }
+    .header-area .btn-lg{
+        border-width: medium;
+        border-radius: 0;
+        
+      
+    }
+     .btn-outline{
+        color: #f8f9fa;
+    border-color: #f8f9fa;
+    
+    }
+    .header-area .btn:hover{
+        background-color: black;
+        color:#ffec01 ;
+        text-shadow: none;
+    }
+  
+   
+   /* END HOMEPAGE*/
+
+     /* START ABOUT US*/
+     #aboutme{
+         background-color: white;
+     }
+     #aboutme img{
+        width: 100%;
+      
+     }
+     #aboutme p{
+         color: white;
+     }
+     #aboutme h3{
+         color: white;
+     }
+     #aboutme span{
+         color: white;
+     }
+     
+     .justify{
+        text-align: justify;
+        text-justify: inter-word;
+     }
+       /* END ABOUT US*/
+
+
+   /* START PROFILE*/
+
+   .jumbotron{
+       background-color: whitesmoke;
+       margin-bottom: 0;
+       padding: 20px 20px;
+       border-radius: 0;
+   }
+   .profile h3{
+       color: white;
+   }
+   .heading{
+       color: white;
+       text-transform: uppercase;
+   }
+   .profile p{
+       color: white;
+   }
+   .heading-underline{
+       background-color: #ffec01;
+       height: 5px;
+       width: 70px;
+       margin: 0 auto 32px;
+   }
+   .mu-service-icon-box {
+	font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+    line-height: 75px;
+    border: 2px solid #ffec01;
+    
+}
+.fa-user-alt{
+    margin-top: 24px;
+}
+.fa-laptop-code {
+    margin-top: 24px;
+}
+.fa-briefcase{
+    margin-top: 24px;
+}
+   /* END PROFILE*/
+
+   /* START CONTACT*/
+.fixed{
+    background-image: url(img/apple.png);
+    z-index: -1;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.75);
+    
+    padding: 60px 30px;
+}
+
+.fixed-background h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    color: white;
+}
+.contact p{
+    color: white;
+    font-size: 18px;
+}
+.contact  .mu-service-icon-box {
+	font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+    line-height: 145px;
+    border: 2px solid #ffec01;
+    
+}
+   /* END CONTACT*/
+
+    /* START FOOTER*/
+#footer{
+    background-color:#000000;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.footer-area{
+    display: inline;
+	float: left;
+	padding: 20px 0;
+	text-align: center;
+    width: 100%;
+    color: white;
+}
+
+
+
+
+
+    /* END FOOTER*/
